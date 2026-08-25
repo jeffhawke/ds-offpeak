@@ -1,0 +1,22 @@
+# Local Reasonix session state
+.reasonix/
+
+# Android / Gradle build outputs
+build/
+.gradle/
+.kotlin/
+captures/
+*.apk
+*.aab
+
+# Local Android/Gradle configuration
+local.properties
+
+# IDE folders
+.idea/
+*.iml
+.fleet/
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+# PROJECT.log
+
+Append-only log of changes to `AGENTS.md`, `spec.md`, and significant project decisions.
+
+---
+
+## 2026-08-25 22:22 — AGENTS.md created (v0.1)
+
+Initial working rules agreed with the user:
+
+- Repository & commit conventions: commit after every completed step, direct on `main`, explicit-path staging only (never `git add .` / `git add -A`).
+- `my_considerations.txt` is the user's personal scratch file: never read, edited, staged, or committed by the agent; user changes are ignored silently; stays tracked in git.
+- `.gitignore` policy: ignore rebuilt/redownloaded artifacts and local tool state (`.reasonix/`); commit everything essential to rebuild/redevelop, including the Gradle wrapper.
+- `spec.md` (project contract): versioned from 0.1, never modified without explicit permission, all changes logged here.
+- `AGENTS.md` (these rules): same protection as `spec.md`, versioned, changes logged here.
+- `PROJECT.log`: append-only; also records significant project decisions (architecture, dependencies, why-choices) — agreed at creation time.
+- Decision rule: consequential choices are submitted to the user before being applied; reversible low-risk choices default to the sensible option.
