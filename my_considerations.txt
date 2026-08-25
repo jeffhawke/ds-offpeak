@@ -1,3 +1,8 @@
+This file is for the user's personal use only and for historical reference, it should not be read, changed, committed or considered authoritative.
+
+
+----------------------------------------
+
 This project will develop a very simple, very limited android app for my personal use. 
 First some terms and general rules.
 
