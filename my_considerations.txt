@@ -1,0 +1,31 @@
+This project will develop a very simple, very limited android app for my personal use. 
+First some terms and general rules.
+
+1)
+The folder we're working on is a git folder and everything will be stored there. 
+
+2)
+The file "my_considerations.txt" is my own personal scratch file and for my use only. 
+You should never edit it, never read it, never commit it.
+I'll keep making changes to it and committing in between your commits and you should simply ignore them silently. 
+
+3)
+You'll write and maintain a .gitignore file as needed and you'll commit what we've done after every step. 
+The objective of the git project is to be able to clone the project on another folder or pc and start again with the development process if needed, so everything essential should be committed but not the stuff that gets rebuilt or redownloaded as needed.
+
+4)
+After we're done with this first setup process, we will enter in the content of the project. I will list what I want to accomplish, what the project and the app are about. You will suggest changes if there are any relevant things to modify.
+When we agree that we have a good idea of what we want the project and the app to be, you will then write a "spec.md" file that will list the contract of the project. 
+This will be one of the authoritative source of truth and it should not be edited autonomously by you without first obtaining my *explicit* permission. 
+Ask if you think something need changing there. 
+Every changes to it must be documented accurately in the file "PROJECT.log", appending the new changes at the end with timestamps.
+The file spec.md will have a version number at the beginning, starting with 0.1, and you will increment it as you change it. 
+
+5)
+All these rules must be clarified and submitted back to me for approval or changes. 
+Suggest anything you find relevant to add, modify or delete.
+When we agree that we have a good set of rules to start the development process, they will be written in the file "AGENTS.md". 
+Any subsequent changes to this file requires my explicit permission and they will be logged in the file "PROJECT.log" as well.
+
+
+There are others things I will need to add to the rules later but let's work with this for now.
