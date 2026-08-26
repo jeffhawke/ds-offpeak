@@ -1,6 +1,6 @@
 # AGENTS.md — Project Working Rules (v0.1)
 
-Contract between the user and the agent (Reasonix) for this project. This file and `spec.md` are authoritative. Any change to this file or `spec.md` requires the user's explicit permission and is logged in `PROJECT.log`.
+Contract between the user and the agent (Reasonix) for this project. This file and `spec.md` are authoritative. Any change to this file or `spec.md` requires the user's explicit permission and is logged in `PROJECT_LOG.md`.
 
 ## Project
 A very simple, very limited Android app for the user's personal use. Purpose, features and scope will be defined in `spec.md` (next phase).
@@ -21,18 +21,18 @@ A very simple, very limited Android app for the user's personal use. Purpose, fe
 
 ## 3. .gitignore
 - Maintained by the agent as needed. Ignore anything that gets rebuilt or redownloaded: build outputs (`build/`, `.gradle/`, `.kotlin/`), local Android/Gradle config (`local.properties`), IDE folders (`.idea/`, `*.iml`), OS junk, and `.reasonix/` (local Reasonix session state).
-- Commit everything essential to rebuild/redevelop: source, configs, docs (`AGENTS.md`, `spec.md`, `PROJECT.log`, `.gitignore`), and the Gradle wrapper including `gradle-wrapper.jar`.
+- Commit everything essential to rebuild/redevelop: source, configs, docs (`AGENTS.md`, `spec.md`, `PROJECT_LOG.md`, `.gitignore`), and the Gradle wrapper including `gradle-wrapper.jar`.
 
 ## 4. spec.md (project contract)
 - Authoritative source of truth for what the project and app are: goal, features, non-goals, constraints, acceptance criteria.
 - Versioned at the top, starting at 0.1; version increments on every change.
 - Never modified autonomously. If a change seems needed, ask the user for explicit permission first.
-- Every change documented in `PROJECT.log` (timestamp + description).
+- Every change documented in `PROJECT_LOG.md` (timestamp + description).
 
 ## 5. AGENTS.md (these rules)
-- Same protection as `spec.md`: changes require explicit permission; every change is logged in `PROJECT.log`; versioned (this file: v0.1).
+- Same protection as `spec.md`: changes require explicit permission; every change is logged in `PROJECT_LOG.md`; versioned (this file: v0.1).
 
-## 6. PROJECT.log
+## 6. PROJECT_LOG.md
 - Append-only change log, never rewritten in place.
 - Records: all changes to `spec.md` and `AGENTS.md`, plus significant project decisions (architecture, dependencies, why-choices), each with a timestamp and description.
 
