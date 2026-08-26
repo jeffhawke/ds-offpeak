@@ -3,6 +3,30 @@ This file is for the user's personal use only and for historical reference, it s
 
 ----------------------------------------
 
+Let's write the spec and we will complete the project setup later.
+For now, I'm writing a random list of things that the app should do. You should take the list, give it order, expand what needs expanding, adding anything I'm missing, suggesting changes to what I've written if it's wrong or not practical and in general create a workable list of specifications for the app.
+We don't want an implementation plan at this stage, if it's needed we will prepare one later.
+
+The app is intended for my personal use, so that I can see at a glance if at that moment I can use deepseek with its off-peak rates.
+Deepseek models, both pro and flash, are billed with two different costs, depending on the day of the week and the time of day.
+According to https://api-docs.deepseek.com/quick_start/pricing/ the peak hours (when it's more expensive) are "01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday" and "all other hours are off-peak", that includes the full day on saturday and sunday.
+Since I'm not on the UTC time zone, it's a little difficult for me to know if I can use the models or not (I want to use them when they are cheaper, off-peak, obviously).
+The app should:
+- have a fast visual way to tell if it's off-peak or not (a green or red semaphore or background or border, something obvious); 
+- show the UTC clock;
+- show how far away the next off-peak period is, if we're on peak; or
+- show how much time I have before the off-peak period ends;
+- (optional) the color changes to first yellow then orange when there's only half an hour or a quarter hour (respectively) until the next peak period;
+- the app should give warnings via notifications, if the app is not on foreground, when the status changes (green to yellow, yellow to orange, orange to red, red to green), as long as the user gives permission for the notification, which could be text only or sound and text;
+- the app must allow the user to modify the peak hours from the option menu, as they might change in time.
+
+
+Feel free to suggest other features but remember that I want something practical and small, easy to use, no need to be overly refined as long as the interface is clean and functional.
+
+The app will not need any internet connection capabilities, nor will it need to connect to any third party service, it must work offline without any difference.
+
+----------------------------------------
+
 This project will develop a very simple, very limited android app for my personal use. 
 First some terms and general rules.
 

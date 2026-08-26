@@ -25,6 +25,7 @@ The schedule is preloaded as the default configuration and is user-editable (§5
 - **Peak period** — a configured interval during which the peak (expensive) rate applies.
 - **Off-peak period** — any time not inside a peak interval.
 - **Status** — one of four states:
+
   | Status | Color | Meaning |
   |---|---|---|
   | OFF-PEAK | green | No peak interval now, and none starting within 30 minutes |
